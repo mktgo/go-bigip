@@ -387,7 +387,7 @@ type dataGroupDTO struct {
 	Type       string `json:"type,omitempty"`
 
 	// Records contains a list of DataGroupRecord objects.
-	// `omitempty` tag is removed on purpose. See issue https://github.com/scottdware/go-bigip/issues/90
+	// `omitempty` tag is removed on purpose. See issue https://github.com/mktgo/go-bigip/issues/90
 	Records []DataGroupRecord `json:"records"`
 }
 

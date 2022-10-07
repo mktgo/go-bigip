@@ -2,8 +2,6 @@ package bigip
 
 import (
 	"fmt"
-
-	"github.com/scottdware/go-bigip"
 )
 
 // Note: Had to call main something different as the package complained main was in LTM's example
